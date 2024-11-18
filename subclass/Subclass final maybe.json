@@ -1,0 +1,159 @@
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "BruteFF",
+				"abbreviation": "Protagonist",
+				"full": "Anime Protagonist",
+				"authors": [
+					"NotatoSaysHi"
+				],
+				"version": "1.0",
+				"url": "https://homebrewery.naturalcrit.com/share/Bk-0KQ6JFH",
+				"color": "a5a5a5"
+			}
+		],
+		"dateAdded": 1622051715,
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "98cdcc9fc2",
+		"edition": "classic"
+	},
+	"subclass": [
+		{
+			"name": "Anime Protagonist",
+			"subclassFeatures": [
+				"Kudaranai tsuyo-sa no kuso yarō o taiken suru junbi o shi nasai.|Fighter||Anime Protagonist|BruteFF|3",
+				"Season 2|Fighter||Anime Protagonist|BruteFF|7",
+				"Season 3|Fighter||Anime Protagonist|BruteFF|10",
+				"Season 4|Fighter||Anime Protagonist|BruteFF|15",
+				"Season 5|Fighter||Anime Protagonist|BruteFF|18"
+			],
+			"source": "BruteFF",
+			"shortName": "Anime Protagonist",
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Kudaranai tsuyo-sa no kuso yarō o taiken suru junbi o shi nasai.",
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 3,
+			"entries": [
+				"You gain improved stats that match your extent to which you have trained for no apparent reason. ",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stat Boost|Fighter||Anime Protagonist|BruteFF|3"
+				}
+			]
+		},
+		{
+			"name": "Stat Boost",
+			"entries": [
+				"RANDOM STAT INCREASE",
+				{
+					"type": "table",
+					"caption": "Brute Bonus Damage",
+					"colLabels": [
+						"Fighter Level",
+						"Damage Increase"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-3 text-center"
+					],
+					"rows": [
+						[
+							"3rd",
+							"1AC, 10 walk speed, +1 damage rolls"
+						],
+						[
+							"7th",
+							"2AC, 20 walk speed, +2 damage rolls"
+						],
+						[
+							"15th",
+							"3AC, 20 walk speed, +3 damage rolls"
+						]
+					]
+				}
+			],
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Season 2",
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You can monologue about why you just gained the advantage and have been holding back, but in some really bullshit way.",
+				"once per long rest, you monologue. until the end of your turn, when rolling for damage, any roll below half the die's max is treated as half the die's max, and you gain a +2 on all attack rolls. at the start of your next turn, you realise how fucking stupid you just sounded and are embarassed. roll a performance check (DC17) to see if you managed to recover socially from the monologue. you cant take any type of actions for this turn if you fail, and only lose reactions and bonus actions on a success."
+			]
+		},
+		{
+			"name": "Season 3",
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can gain advantageon a single attack roll. you can use this a number of times equal to your PB."
+			]
+		},
+		{
+			"name": "Season 4",
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Once per long rest, you can roll double the dice on one attack. You can expend all your uses of second wind (min 1) to do the same thing but with disadvantage once per long rest. This disadvantage overrides any and all advantages you can apply here."
+			]
+		},
+		{
+			"name": "Season 5",
+			"source": "BruteFF",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Anime Protagonist",
+			"subclassSource": "BruteFF",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"you have such a large and weird fanbase you got R34'd
+You gain Expertise in persuasion. This is because of how many people simp for you.
+also your dick is now 2 inches longer. (always looking out for the boys)
+Another Ability:
+Nuh uh, i totally hit you
+2 times per long rest, if you miss an attack, you can choose to hit instead. (cant use this on double damage dice attacks that have disadvantage)"
+			]
+		}
+	]
+}
